@@ -17,3 +17,12 @@
         loop: true,
         
       });
+
+ let gambar= document.querySelectorAll('img')
+      
+      gambar.forEach(function(e){
+       // e.classList.toggle('lazy')
+        e.setAttribute('loading','lazy')
+     
+        
+      })
