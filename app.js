@@ -18,11 +18,14 @@
         
       });
 
- let gambar= document.querySelectorAll('img')
-      
-      gambar.forEach(function(e){
-       // e.classList.toggle('lazy')
-        e.setAttribute('loading','lazy')
-     
-        
-      })
+ let cari= document.querySelectorAll("img")
+cari.forEach(function(e){
+  let src = e.getAttribute("src")
+  // console.log(src)
+ e.setAttribute("data-srcset",`${src} 300w`)
+ e.setAttribute("data-src",`${src}`)
+ e.setAttribute("data-sizes",`auto`)
+ e.setAttribute("class",`lazyload`)
+ e.setAttribute("loading",`lazy`)
+ 
+})
