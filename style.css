@@ -46,7 +46,7 @@ background: linear-gradient(to right bottom, #1d2133, #27384e, #305268, #386d81,
         background-position: center;
         background-size: cover;
         width: 200px;
-        height: 250px;
+        height: 150px;
         border-radius:10px;
         overflow: hidden;
       -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0003);
