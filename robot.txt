@@ -1,4 +1,4 @@
 User-Agent: *
 Allow:/
-Sitemap: https://cetakmerk/sitemap.xml
+Sitemap: https://cetakmerk.github.io/sitemap.xml
 
