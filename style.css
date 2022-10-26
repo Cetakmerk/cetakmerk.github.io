@@ -104,3 +104,8 @@ background: linear-gradient(-45deg, #84FFC9,#AAB2FF,#ECA0FF);
 	100% {
 		background-position: 0% 50%;
       }
+ .marketlogo{
+   width: 10px;
+   height: 10px;
+   
+ }
